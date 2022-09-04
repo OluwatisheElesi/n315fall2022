@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background: white;
+
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    margin: 0 auto;
+    padding: 12px;
+
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* buttons */
+button {
+ cursor: pointer;
+ border-radius: 10px;
+ background-color: rgb(115, 187, 115);
+ color: white;
+ font-size: larger;
+
+}
+#key {
+    
+    height: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px #888888;
+    padding-left: 40px;
+    margin: 0 auto;
+   
+}
+.key {
+   font-size: 20px;
+   margin: 0 auto;
+    height: 50px; 
+    background-color: white; 
+    color: black;
+    width: 350px;
+    border-radius: 14px;
+    display: none;
+    padding: 60px ;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}  
+.key.active {
+    font-size: 20px;
+   margin: 0 auto;
+    height: 50px; 
+    background-color: white; 
+    color: black;
+    width: 350px;
+    border-radius: 14px;
+    position: absolute;
+    padding: 60px ;
+    display: block;
+}
+
+#next {
+   
+    position: relative;
+    margin: 0 auto;
+    left: 140px;
+    padding: 20px;
+    text-decoration: none;
+} 
+#next a{
+    color: white;
+    font-size: larger;
+    position: relative;
+    margin: 0 auto;
+    text-decoration: none;
+} 
+#cont-submit {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    background-color: rgb(115, 187, 115);
+   }
+/* Major sections */
+#nav {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(52, 71, 59, 0.764);
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+   }
+#header {
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    
+}
+#welcome {
+    margin: 0 auto;
+    height: 600px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+#contact {
+    width: 100%;
+    height: 730px;
+    background-color: #FFC667;
+    /* position: absolute; */
+    
+}
+#footer {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+    width: auto;
+    height: 200px;
+    background-color: rgb(99, 100, 99);
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    color: white;
+    top: 1330px;
+   
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   #footer2 {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+    width: auto;
+    height: 200px;
+    background-color: rgb(99, 100, 99);
+    position:static;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    color: white;
+   
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   /* nav seciton */
+   .nav a {
+    font-size: 20px;
+   font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-left: 40px;
+    left:50px;
+    float: left;
+   
+    /* display:flexbox;margin-right: 5px; 
+    justify-content: center; */
+   }
+   .nav a:hover {
+    color: rgb(115, 187, 115);
+  }
+  #navlogo {
+    width: 102px;
+    height: 80px;
+   }
+   .logoname {
+padding-left: 30px;
+   }
+
+   .links{
+    position: absolute;
+    float: right;
+    width: 70%;
+    justify-content: right;
+    left: 60%; 
+    top:30px; 
+     margin: 0 auto;  
+    /* overflow:visible; */
+     /* background-color: aqua;  */
+    display: inline-block; 
+    text-align: right;
+   }
+
+ 
+  
+   #heroimg {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   #navlogo2 {
+    width: 202px;
+    height: 180px;
+   }
+/* hero text */
+   .bund {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    padding: 150px;
+    margin: 0 auto;
+    padding-left: 80px;
+    bottom: 700px;
+    /* background-color: aliceblue; */
+   }
+   .herotext {
+    width: 550px;
+    height: 150px;
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+    flex-wrap: nowrap;
+    text-align:left;
+    margin: 0 auto;
+    background-color: rgba(1, 0, 0, 0.429); 
+    border-radius: 20px;
+   }
+   .welcomelogo {
+    width: 200px;
+    height: 200px;
+    /* background-color: white; */
+    padding-left: 140px;
+   }
+
+/* contact stuff */
+.form { padding-left: 30px;
+    width: 500px;
+    height: 400px;
+    /* background-color: rgb(91, 205, 50);  */
+    padding: 25px;
+    margin: 0 auto;
+    top: 6px;
+    /* left: -50px; */
+    position: relative;
+    /* border-radius: 20px; */
+    
+    
+   }
+
+   .contact {
+    justify-content: center;
+    left: -8px;
+    /* float: left; */
+    padding: 20px;
+    color: rgb(5, 5, 5);
+    font-size: 40px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    top: 140px;
+    /* background-color: grey;  */
+   }
+
+   .c {
+    background-color: rgb(115, 187, 115); 
+    width: 500px;
+    height: 900px;
+    float: right;
+   }
+
+   #contactimg {
+    width: 50%;
+    height: 360px;
+    position:absolute;
+    left: 10px;
+    top: 870px;
+    /* background-color: aquamarine; */
+    padding: 20px;
+    min-width: 20px;
+   }
+
+   form {
+    padding: 50px;
+    
+   }
+
+  #cont-name  {
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+   }
+
+   #cont-email {
+    width: 300px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+   }
+
+   #cont-message {
+    width: 300px;
+    height: 140px;
+    color: black;
+    background-color: white;
+     border-radius: 10px;
+   }
+.info   {
+    padding-left: 40px;
+    padding:40px ;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    float: right;
+    /* background-color: wheat; */
+   
+}
+
+.info2 a {
+    padding-left: 40px;
+    padding:40px ;
+    width: 400px;
+    position: relative;
+    padding-bottom: 200px;
+    justify-content: space-between;
+    height: 200px;
+    text-decoration: none;
+    color: white;
+    float: center;
+    /* background-color: wheat; */
+   
+}
+
+.rights{
+    float: center;
+}
+
+#content {
+    position: relative;
+    min-height: 1000px; 
+}
+.contact {
+    padding-bottom: 2.5rem;
+}
+
+/* piano page */
+.top {
+    width: auto;
+    height: 870px;
+    background-color:rgb(115, 187, 115);
+
+}
+#p-text {
+    width: 400px;
+    font-size: 32px;
+top: 170px;
+position: relative;
+float: center;
+margin: 0 auto;
+/* background-color: #888888; */
+
+}
+
+/* keys position */
+#scale {
+    width: auto;
+    height:400px;
+    /* background-color: #888888; */
+    padding: 80px;
+    position: relative;
+    top: 360px;
+    float: center;
+}
