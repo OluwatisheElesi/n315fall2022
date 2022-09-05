@@ -310,17 +310,21 @@ padding-left: 30px;
     /* background-color: aliceblue; */
    }
    .herotext {
-    width: 550px;
+    width: 750px;
     height: 150px;
     padding: 20px;
     color: #ffffff;
-    font-size: 50px;
     flex-wrap: nowrap;
     text-align:left;
     margin: 0 auto;
     background-color: rgba(1, 0, 0, 0.429); 
     border-radius: 20px;
    }
+
+    #dome {
+      font-size: 50px;
+}
+
    .welcomelogo {
     width: 200px;
     height: 200px;
@@ -806,4 +810,12 @@ position: relative;
     margin: 0 auto;
     background-color: rgba(1, 0, 0, 0.429); 
     border-radius: 10px; */
+}
+.int {
+    font-size: 25px;
+    color: #ffffff;
+}
+li {
+    color: #ffffff;
+    padding-left: 25px;
 }
