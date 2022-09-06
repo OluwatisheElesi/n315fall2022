@@ -366,6 +366,7 @@ left: 0;
    }
    .github a {
     text-decoration: none;
+    color: #ffffff;
    }
    .nav a:hover {
     color: rgb(115, 187, 115);
