@@ -357,6 +357,16 @@ left: 0;
     /* display:flexbox;margin-right: 5px; 
     justify-content: center; */
    }
+
+   .github {
+    width: 160px;
+    height: 80px;
+    background-color: #CACACA;
+    position:  relative;
+   }
+   .github a {
+    text-decoration: none;
+   }
    .nav a:hover {
     color: rgb(115, 187, 115);
   }
