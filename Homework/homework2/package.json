@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "compile-sass": "sass scss/styles.scss css/styles.css -w",
-   "serve": "live-server"
+    "compile-sass": "sass scss/styles.scss css/styles.css -w",
+    "serve": "live-server"
   },
   "author": "Oluwatishe Elesinnla",
-  
   "keywords": [],
   "license": "ISC",
   "description": "",
