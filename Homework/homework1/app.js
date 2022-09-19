@@ -30,3 +30,36 @@ links.forEach(link => {
        forms.classList.toggle("show-signup");
     })
 })
+let synthApp ={
+
+synth: new Tone.Synth().toDestination(),
+// this is the array that your are accessing 
+notes: ["C4"],
+currentNote: 0,
+
+playSound: function() {
+    console.log(this);
+    this.synth.triggerAttackRelease(this.notes[this.currentNote], "8n");
+    this.currentNote ;
+// we invoke play sound and wait and play half a second
+    // setTimeout(this.playSound.bind(this), 400);
+}
+} 
+
+
+// let openIndex = synthApp;
+
+// let synthApp ={
+//     synth: new Tone.Synth().toDestination(),
+//     // this is the array that your are accessing 
+//     notes: ["C4"],
+//     currentNote: 0,
+    
+//     playSound: function() {
+//         console.log(this);
+//         this.synth.triggerAttackRelease(this.notes[this.currentNote], "8n");
+//         this.currentNote ;
+//     // we invoke play sound and wait and play half a second
+//         // setTimeout(this.playSound.bind(this), 400);
+    
+//     } }
