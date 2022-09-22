@@ -17,7 +17,17 @@
    -webkit-font-smoothing: antialiased;
   }
   
-  
+   /*.body1 {
+    width: 100%;
+    height: 800px; */
+    /* background: url( '../images/squares.svg' ) no-repeat; */
+   
+    /* background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%; height: 120vh;
+    color: black;
+   -webkit-font-smoothing: antialiased;
+  } */
   
   button {
    cursor: pointer;
@@ -109,26 +119,59 @@ a .nav-wrapper :hover {
     
   }
   
-  .user-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: .25rem;
-    margin-top: 1rem;
-  }
+  /* .user-cards { 
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 2 px; 
+    margin-top: 10px;
+    padding-left: 40px ;
+    background-color: #777;
+    width: 400px;
+    height: fit-content;
+    position: relative;  } 
+     */
+
+    
+ 
   
+  .card1 {
+    display: flex;
+    border: 1px solid black;
+    background: url( 'https://static.onecms.io/wp-content/uploads/sites/6/2016/01/kit-1.jpg' ) no-repeat;;
+    border-radius: 20px;
+    padding: 65px;
+    width: 40%;
+    display: flex inline;
+    justify-content: space-around;
+margin-top: 40px;
+margin-bottom: 20px;
+    margin-left: 20%;
+  }
+
   .card {
+    display: flex;
     border: 1px solid black;
     background-color: white;
-    padding: .5rem;
+    border-radius: 20px;
+    padding: 65px;
+    width: 40%;
+    display: flex inline;
+    justify-content: space-around;
+margin-top: 40px;
+margin-bottom: 20px;
+    margin-left: 20%;
   }
   
   .card  .header {
-    margin-bottom: .25rem;
+    margin-bottom: 25px;
+    font-weight: bold;
   }
   
   .card  .body {
     font-size: .8rem;
     color: #777;
+    padding-left: 50%;
+
   }
   
   .hide {
@@ -145,4 +188,16 @@ a .nav-wrapper :hover {
     height: fit-content;
     position: sticky;
     background-color: rgb(157, 86, 224);
+  }
+
+  #user-card {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    overflow: wrap;
+    overflow-y: scroll;
+    /* background-color: aqua; */
+    position:relative;
+    bottom: 300px
+
   }
