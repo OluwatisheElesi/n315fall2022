@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   outline: 0;
+  
   box-sizing: border-box;
 }
 
@@ -48,12 +49,30 @@ button {
     margin: 0 auto;
    
 }
+<<<<<<< Updated upstream
 
 #keyf {
     height: 130px;
     width: 20px;
  background-color: #000000;
     color: #ffffff; 
+=======
+#keyw {
+    
+    height: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px #888888;
+    padding-left: 40px;
+    margin: 0 auto;
+   
+}
+#keyf {
+    height: 130px; 
+    --width: 20px;
+ background-color: black;
+    color:white; 
+>>>>>>> Stashed changes
     box-shadow: 5px 10px #888888;
     padding-left: 40px;
     margin: 0 auto;
@@ -63,13 +82,20 @@ button {
     /* margin-right: -30px; */
     z-index: 2;
 }
+
 .key {
    font-size: 20px;
    margin: 0 auto;
     height: 50px; 
+<<<<<<< Updated upstream
     background-color: #ffffff; 
     color: #000000;
     width: 350px;
+=======
+    background-color: white; 
+    color: black;
+    width: 50px;
+>>>>>>> Stashed changes
     float: center;
     /* border-radius: 4px; */
     display: none;
@@ -85,7 +111,11 @@ button {
   padding: 14px;
   text-decoration: none;
 }  
+<<<<<<< Updated upstream
 /* .key.active {
+=======
+#key.active {
+>>>>>>> Stashed changes
     font-size: 20px;
    margin: 0 auto;
     height: 150px; 
@@ -105,7 +135,7 @@ button {
 }                                                                                                                                                                                                                                                               */
 
 
-.keyf {
+ .keyf {
     font-size: 20px;
     margin: 0 auto;
      height: 50px; 
@@ -113,15 +143,22 @@ button {
      color: #000000;
      width: 350px;
      float: center;
-     /* border-radius: 4px; */
+     border-radius: 4px; 
      display: none;
      padding: 60px ;
      position: absolute;
      bottom: 250px;
      left: 400px;
+<<<<<<< Updated upstream
  }  
   .key.active {
     font-size: 20px;
+=======
+ }   
+
+ .keyf.active {
+     font-size: 20px;
+>>>>>>> Stashed changes
     margin: 0 auto;
      height: 150px; 
      background-color: #ffffff; 
@@ -202,12 +239,16 @@ button {
 #nav {
     /* display: flex;
   justify-content: space-between;
+<<<<<<< Updated upstream
   align-items: center; */
+=======
+  align-items: center;
+>>>>>>> Stashed changes
     /* width: auto; */
     height: 120px;
     background-color: rgb(52, 71, 59);
-    position: absolute;
-    width: 100%;
+    position:relative;
+    /* width: 100%; */
     z-index: 999;
     left: 0;
     overflow: hidden;
@@ -319,9 +360,10 @@ left: 0;
       color: #ffffff;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
    /* nav seciton */
-   .nav {
+   /* .nav {
     min-height: 100%;
     
+<<<<<<< Updated upstream
    }
 
    .footer2 {
@@ -343,6 +385,9 @@ left: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
 
+=======
+   } */
+>>>>>>> Stashed changes
    .nav a {
     font-size: 20px;
    font-weight: bolder;
@@ -428,6 +473,7 @@ padding-left: 30px;
     /* background-color: aliceblue; */
    }
    .herotext {
+<<<<<<< Updated upstream
     width: 750px;
     padding: 20px;
     color: #ffffff;
@@ -447,6 +493,20 @@ padding-left: 30px;
     margin: 0 auto;
     background-color: rgba(1, 0, 0, 0.572);
     border-radius: 20px;
+=======
+    
+        width: 750px;
+        height: 92px;
+        padding: 20px;
+        color: #ffffff;
+        flex-wrap: nowrap;
+        text-align:left;
+        margin: 0 auto;
+        background-color: rgba(1, 0, 0, 0.429); 
+        border-radius: 20px;
+       
+    
+>>>>>>> Stashed changes
    }
     #dome {
       font-size: 50px;
@@ -642,8 +702,12 @@ padding-left: 30px;
 #p-text {
     width: 48%;
     font-size: 32px;
+<<<<<<< Updated upstream
     left: 100px;
 top: 170px;
+=======
+top: 300px;
+>>>>>>> Stashed changes
 position: relative;
 float: center;
 margin: 0 auto;
@@ -946,6 +1010,7 @@ padding: 25px;
     padding: 25px;
     position: relative;
     font-size: 90%;
+    color: black;
 }
 
 #pricing-plan__1   {
@@ -1024,6 +1089,7 @@ position: relative;
 #hed{
     position: relative;
     bottom: 600px;
+<<<<<<< Updated upstream
    font-size: 48px;
 /*   float:center;
   width: 550px;
@@ -1062,3 +1128,14 @@ position: relative;
 
 
  }
+=======
+}
+.int {
+    font-size: 25px;
+    color: white;
+}
+li {
+    color: white;
+    padding-left: 25px;
+}
+>>>>>>> Stashed changes
