@@ -51,7 +51,7 @@
   }
 
   
-.nav-wrapper a  {
+.links a  {
     text-decoration: none;
     font-size: 25px;
     color:rgb(157, 86, 224);
@@ -61,6 +61,7 @@
     font-weight: bold;
     float: right;
     position: relative;
+    z-index: 5;
     /* bottom: 40px; */
 
 }
@@ -140,7 +141,7 @@
     background-color:gold ;
     border-radius: 20px;
     padding: 65px;
-    width: 40%;
+    width: 60%;
     display: flex inline;
     justify-content: space-around;
 margin-top: 40px;
@@ -154,7 +155,7 @@ margin-bottom: 20px;
     background-color: white;
     border-radius: 20px;
     padding: 65px;
-    width: 40%;
+    width: 60%;
     display: flex inline;
     justify-content: space-around;
 margin-top: 40px;
@@ -170,13 +171,13 @@ margin-bottom: 20px;
   .card  .body {
     font-size: .8rem;
     color: #777;
-    padding-left: 50%;
+    padding-left: 20%;
 
   }
   
-  .hide {
+  /* .hide {
     display: none;
-  }
+  } */
   
 #footer a {
     text-decoration: none;
@@ -191,8 +192,8 @@ margin-bottom: 20px;
   }
 
   #user-card {
-    height: fit-content;
-    width: 100%;
+    height: 300px;
+    width:80%;
     display: flex;
     overflow: wrap;
     overflow-y: scroll;
@@ -200,4 +201,42 @@ margin-bottom: 20px;
     position:relative;
     bottom: 300px
 
+  }
+
+  .image_3{
+    width: 250%;
+    height:200px;
+    /* background: url(../images/01-best_pod_landscapes.jpeg) no-repeat; */
+   /* background-color: darkviolet; */
+    position: relative;
+    color:black;
+    font-size: 40px;
+  right: 550px;
+  border-radius: 20px;
+  /* padding-top: 392px; */
+  top: 122px;
+
+  
+  }
+
+  #page {
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    /* padding: left ; */
+    /* padding: 65px; */
+    position: relative;
+    width: 73%;
+    height: 600px;
+    overflow: hidden scroll;
+    /* padding: 200px; */
+    display: flex inline;
+    justify-content: space-around;
+     left: 12%; 
+top: 400px;
+    
+  }
+  .titles {
+    width: 600kkk                                                                                                                                                                                                                                                                                                                                                                             ;
   }
