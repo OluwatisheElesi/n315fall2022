@@ -26,6 +26,7 @@ pwShowHide.forEach(eyeIcon => {
 
 links.forEach(link => {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     link.addEventListener("click", e => {
        e.preventDefault(); //preventing form submit
        forms.classList.toggle("show-signup");
@@ -65,9 +66,15 @@ playSound: function() {
     
 //     } }
 =======
+=======
+>>>>>>> Stashed changes
   link.addEventListener("click", e => {
      e.preventDefault(); //preventing form submit
      forms.classList.toggle("show-signup");
   })
+<<<<<<< Updated upstream
+})
+>>>>>>> Stashed changes
+=======
 })
 >>>>>>> Stashed changes

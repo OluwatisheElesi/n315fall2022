@@ -50,6 +50,7 @@ button {
    
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 #keyf {
     height: 130px;
@@ -68,6 +69,19 @@ button {
    
 }
 #keyf {
+=======
+#keyw {
+    
+    height: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px #888888;
+    padding-left: 40px;
+    margin: 0 auto;
+   
+}
+#keyf {
+>>>>>>> Stashed changes
     height: 130px; 
     --width: 20px;
  background-color: black;
@@ -95,6 +109,9 @@ button {
     background-color: white; 
     color: black;
     width: 50px;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     float: center;
     /* border-radius: 4px; */
@@ -112,7 +129,11 @@ button {
   text-decoration: none;
 }  
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /* .key.active {
+=======
+#key.active {
+>>>>>>> Stashed changes
 =======
 #key.active {
 >>>>>>> Stashed changes
@@ -150,10 +171,13 @@ button {
      bottom: 250px;
      left: 400px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
  }  
   .key.active {
     font-size: 20px;
 =======
+=======
+>>>>>>> Stashed changes
  }   
 
  .keyf.active {
@@ -243,6 +267,9 @@ button {
   align-items: center; */
 =======
   align-items: center;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     /* width: auto; */
     height: 120px;
@@ -364,6 +391,7 @@ left: 0;
     min-height: 100%;
     
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    }
 
    .footer2 {
@@ -385,6 +413,9 @@ left: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
 
+=======
+   } */
+>>>>>>> Stashed changes
 =======
    } */
 >>>>>>> Stashed changes
@@ -474,6 +505,7 @@ padding-left: 30px;
    }
    .herotext {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 750px;
     padding: 20px;
     color: #ffffff;
@@ -494,6 +526,8 @@ padding-left: 30px;
     background-color: rgba(1, 0, 0, 0.572);
     border-radius: 20px;
 =======
+=======
+>>>>>>> Stashed changes
     
         width: 750px;
         height: 92px;
@@ -506,6 +540,9 @@ padding-left: 30px;
         border-radius: 20px;
        
     
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
    }
     #dome {
@@ -703,8 +740,12 @@ padding-left: 30px;
     width: 48%;
     font-size: 32px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     left: 100px;
 top: 170px;
+=======
+top: 300px;
+>>>>>>> Stashed changes
 =======
 top: 300px;
 >>>>>>> Stashed changes
@@ -1090,6 +1131,7 @@ position: relative;
     position: relative;
     bottom: 600px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
    font-size: 48px;
 /*   float:center;
   width: 550px;
@@ -1129,6 +1171,8 @@ position: relative;
 
  }
 =======
+=======
+>>>>>>> Stashed changes
 }
 .int {
     font-size: 25px;
@@ -1137,5 +1181,9 @@ position: relative;
 li {
     color: white;
     padding-left: 25px;
+<<<<<<< Updated upstream
+}
+>>>>>>> Stashed changes
+=======
 }
 >>>>>>> Stashed changes
