@@ -1,0 +1,25 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    
+    "serve" : "live-server",
+    "compile-sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "author": "Oluwatishe Elesinnla",
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0",
+    "scripts": "^0.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

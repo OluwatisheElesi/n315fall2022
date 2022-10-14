@@ -1,0 +1,475 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Segoe_UI;
+  src: url(../css/fonts/Segoe\ UI.woff);
+}
+@font-face {
+  font-family: Segoe_UIBold;
+  src: url(../css/fonts/Segoe\ UI\ Bold.woff);
+}
+nav {
+  height: 80px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(78, 16, 75, 0.6196078431);
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .logo #logoImage img {
+  width: 73px;
+  height: 73px;
+  margin-left: 15px;
+}
+nav .logo .logoText {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: Segoe_UI;
+}
+nav .searchBar {
+  opacity: 35%;
+  width: 404px;
+  height: 34px;
+  display: flex;
+  border-radius: 20px;
+  background-color: #e8eef0;
+}
+nav .searchBar .font {
+  padding: 10px;
+}
+nav .searchBar p {
+  color: #000;
+  padding: 5px;
+  font-size: 16px;
+  font-family: Segoe_UI;
+}
+nav .logoText {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+nav .links a {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin-right: 30px;
+  font-family: Segoe_UI;
+  text-decoration: none;
+}
+nav .links a i {
+  font-weight: bold;
+}
+
+@media all and (max-width: 200px) {
+  nav {
+    width: 25%;
+    text-align: center;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  nav .searchBar {
+    width: 15%;
+    margin-bottom: 30px;
+  }
+  nav a {
+    margin-left: 50px;
+  }
+  hr {
+    display: none;
+  }
+}
+.about {
+  padding-top: 200px;
+  font-family: Segoe_UI;
+}
+
+.aboutPic {
+  width: 400px;
+  height: 500px;
+}
+
+.aboutRight {
+  position: relative;
+  font-family: Segoe_UI;
+  width: 830px;
+  height: fit-content;
+  margin-left: 30%;
+  bottom: 240px;
+}
+
+.blogRight {
+  position: relative;
+  font-family: Segoe_UI;
+  width: 830px;
+  height: fit-content;
+  margin-left: 30%;
+  bottom: 540px;
+}
+
+.aboutPicOne {
+  padding: 40px;
+  width: 383px;
+  height: 201px;
+}
+
+h4 {
+  position: relative;
+  padding-left: 45%;
+}
+
+.aboutParaOne {
+  position: relative;
+  padding: 20px;
+  width: 934px;
+  height: 170px;
+}
+
+.aboutParaTwo {
+  position: relative;
+  padding: 20px;
+  width: 934px;
+  height: 170px;
+}
+
+.aboutTitle {
+  position: relative;
+  margin-left: 36%;
+}
+
+@media all and (max-width: 800px) {
+  .bookPages, .bookPagesTwo, .bookPagesThree, .bookPagesFour {
+    flex-direction: column;
+  }
+  .bookPages img, .bookPagesTwo img, .bookPagesThree img, .bookPagesFour img {
+    width: 100%;
+  }
+}
+.account {
+  width: 1200px;
+  display: flex;
+}
+
+#login {
+  position: relative;
+  float: left;
+  left: 5%;
+  padding-top: 300px;
+  bottom: 90PX;
+  background-color: #ecc6ea;
+  border: 4px solid #d38cd0;
+  width: 300px;
+  height: 350px;
+  border-radius: 25px;
+  top: 15px;
+  padding: 45px;
+  margin-top: 120px;
+  margin-bottom: 180px;
+}
+
+#sign-up {
+  background-color: #ecc6ea;
+  border: 4px solid #d38cd0;
+  width: 300px;
+  height: 600px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  top: 10px;
+  padding: 45px;
+  position: relative;
+  float: left;
+  left: 20%;
+  margin-top: 20px;
+}
+
+.form {
+  font-family: Segoe_UI;
+}
+
+input {
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  color: black;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(233, 224, 224);
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+#submit {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #d38cd0;
+  opacity: 1;
+  color: #d38cd0;
+  position: relative;
+  top: 10px;
+  font-family: Segoe_UI;
+  width: 170px;
+  height: 45px;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  margin-left: 260px;
+}
+
+.login {
+  position: relative;
+  left: -250px;
+}
+
+.signup {
+  position: relative;
+  left: -250px;
+}
+
+.logTitle {
+  text-align: left;
+  font: normal normal normal 26px/31px Segoe_UI;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+@media all and (max-width: 760px) {
+  .account {
+    display: inline-block;
+    padding-right: 40px;
+  }
+  #sign-up {
+    left: 220px;
+  }
+}
+.mainHead {
+  height: 530px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 200px;
+  background-image: linear-gradient(#d38cd0, rgba(88, 124, 131, 0.5)), url(../../images/squarew.png);
+  background-size: cover;
+  background-color: #d38cd0;
+}
+
+.mainHeadText {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(34, 35, 32, 0.327);
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: Segoe_UI;
+  margin-left: 180px;
+  top: 105px;
+}
+
+.searchBar2 {
+  padding: relative;
+  opacity: 35%;
+  width: 404px;
+  height: 54px;
+  display: flex;
+  z-index: 5;
+  float: left;
+  left: 35%;
+  bottom: 240px;
+  margin-left: 150%;
+  margin-bottom: 420px;
+  padding-left: 10px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.searchBar2 .font {
+  padding: 10px;
+}
+.searchBar2 p {
+  color: #000;
+  padding: 5px;
+  font-size: 16px;
+  font-family: Segoe_UI;
+}
+
+.hTextOne {
+  text-align: left;
+  font-display: bold;
+  font-size: 30px;
+  letter-spacing: 0px;
+  top: -440px;
+  position: relative;
+}
+
+.hTextTwo {
+  text-align: left;
+  font-display: bold;
+  font-size: 20px;
+  letter-spacing: 0px;
+  margin-top: -30px;
+  position: relative;
+}
+
+.bookRow {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  font-family: Segoe UI;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  margin-left: 60px;
+  top: 500PX;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: "Segoe UI";
+}
+
+.now {
+  position: relative;
+  width: 300px;
+}
+.now .heroText {
+  width: 100%;
+  display: flex;
+}
+
+.homeBook {
+  width: 500px;
+  height: 400px;
+  background-color: #d38cd0;
+  border-radius: 20px;
+  position: relative;
+  padding: 120px;
+  padding-left: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: -70px;
+  justify-content: space-between;
+}
+
+.butt {
+  width: 470px;
+  height: 300px;
+  position: relative;
+  padding: 60px;
+  float: right;
+  left: 800px;
+  bottom: 70px;
+  margin-top: -300px;
+}
+
+.by {
+  position: relative;
+  width: 222px;
+  height: 391px;
+  color: #000;
+  margin-right: 140px;
+}
+
+.heroText {
+  width: 500px;
+  margin-left: 40px;
+  font-size: 35px;
+}
+
+#footLogo {
+  bottom: 440px;
+  position: relative;
+}
+
+.priceOne {
+  font-weight: 30px;
+  width: 322px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 50%;
+  font-family: Gill Sans;
+}
+
+.mainAdd {
+  margin-top: 40px;
+  width: 222px;
+  height: 68px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #d38cd0;
+  margin-bottom: 200px;
+  border-radius: 20px;
+  border: 4px solid rgb(236, 236, 160);
+  margin-left: 70px;
+}
+
+@media all and (max-width: 800px) {
+  .mainHead {
+    width: 100%;
+    height: 300px;
+  }
+  .now {
+    width: 400px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+  }
+  .homeBook {
+    width: 20%;
+  }
+  .heroText {
+    height: 40px;
+    width: 200px;
+    display: inline-flex;
+  }
+}
+footer {
+  height: 92px;
+  background-color: #d38cd0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer #footText {
+  color: #fff;
+  font-size: 16px;
+  font-family: Segoe_UI;
+}
+footer #footLinks a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 38px;
+  text-decoration: none;
+  font-family: Segoe_UI;
+}
+
+@media all and (max-width: 200px) {
+  footer {
+    flex-direction: column;
+    height: 100px;
+  }
+  footer #footText {
+    margin-top: 20px;
+  }
+  footer #footLinks {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,80 @@
+//PAGE DONE BY OLUWATISHE
+//  spacing at top
+.about{
+    padding-top: 200px;
+    // padding-bottom: 10px;
+    font-family: Segoe_UI;
+}
+// the pics in about 
+.aboutPic {
+    width: 400px;
+    height: 500px;
+}
+// the pics in about 
+
+
+// the text in about
+.aboutRight{
+    position: relative;
+    font-family: Segoe_UI;
+    width:830px;
+    height: fit-content;
+    // background-color: aqua;
+    margin-left: 30%;
+    bottom: 240px;
+}
+
+.blogRight{
+    position: relative;
+    font-family: Segoe_UI;
+    width:830px;
+    height: fit-content;
+    // background-color: aqua;
+    margin-left: 30%;
+    bottom: 540px;
+}
+
+.aboutPicOne{
+    padding: 40px;
+    width: 383px;
+    height: 201px;
+}  
+
+h4{
+    position: relative;
+    padding-left: 45%;
+}
+
+
+.aboutParaOne {
+    position: relative;
+  
+padding: 20px;
+width: 934px;
+height: 170px;
+// background-color: tomato;
+}
+.aboutParaTwo {
+    position: relative;
+  
+    padding: 20px;
+    width: 934px;
+    height: 170px;
+}
+
+
+.aboutTitle{
+    position:relative;
+    margin-left: 36%;
+}
+@media all and (max-width: 800px) {
+
+    .bookPages , .bookPagesTwo, .bookPagesThree , .bookPagesFour {
+        flex-direction: column;
+
+        img {
+            width: 100%;
+        }
+    }
+
+}
